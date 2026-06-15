@@ -1,8 +1,8 @@
-\# E-Commerce Customer Segmentation \& RFM Analysis
+# E-Commerce Customer Segmentation \& RFM Analysis
 
 
 
-\## Project Overview
+## Project Overview
 
 
 
@@ -14,31 +14,31 @@ The objective is to identify high-value customers, at-risk customers, and busine
 
 
 
-\---
+---
 
 
 
-\## Tech Stack
+## Tech Stack
 
 
 
-\* MySQL
+* MySQL
 
-\* Python
+* Python
 
-\* Power BI
+* Power BI
 
-\* SQL
+* SQL
 
-\* Pandas
-
-
-
-\---
+* Pandas
 
 
 
-\## Dataset
+---
+
+
+
+## Dataset
 
 
 
@@ -50,57 +50,57 @@ The dataset contains information about:
 
 
 
-\* Customers
+* Customers
 
-\* Orders
+* Orders
 
-\* Order Items
+* Order Items
 
-\* Payments
+* Payments
 
-\* Reviews
+* Reviews
 
-\* Products
+* Products
 
-\* Sellers
-
-
-
-\---
+* Sellers
 
 
 
-\## Project Workflow
+---
 
 
 
-1\. Data Import into MySQL
-
-2\. Data Validation
-
-3\. Exploratory Data Analysis
-
-4\. Customer Transaction Aggregation
-
-5\. RFM Metric Calculation
-
-6\. Customer Segmentation
-
-7\. Business Insights Generation
-
-8\. Power BI Dashboard Creation
+## Project Workflow
 
 
 
-\---
+1. Data Import into MySQL
+
+2. Data Validation
+
+3. Exploratory Data Analysis
+
+4. Customer Transaction Aggregation
+
+5. RFM Metric Calculation
+
+6. Customer Segmentation
+
+7. Business Insights Generation
+
+8. Power BI Dashboard Creation
 
 
 
-\## RFM Metrics
+---
 
 
 
-\### Recency
+## RFM Metrics
+
+
+
+### Recency
 
 
 
@@ -108,7 +108,7 @@ Days since a customer's last purchase.
 
 
 
-\### Frequency
+### Frequency
 
 
 
@@ -116,7 +116,7 @@ Total number of orders placed by a customer.
 
 
 
-\### Monetary
+### Monetary
 
 
 
@@ -124,31 +124,31 @@ Total amount spent by a customer.
 
 
 
-\---
+---
 
 
 
-\## Expected Customer Segments
+## Expected Customer Segments
 
 
 
-\* Champions
+* Champions
 
-\* Loyal Customers
+* Loyal Customers
 
-\* Potential Loyalists
+* Potential Loyalists
 
-\* At Risk Customers
+* At Risk Customers
 
-\* Lost Customers
-
-
-
-\---
+* Lost Customers
 
 
 
-\## Project Status
+---
+
+
+
+## Project Status
 
 
 
