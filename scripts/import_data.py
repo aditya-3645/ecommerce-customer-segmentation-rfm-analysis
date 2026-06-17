@@ -12,24 +12,13 @@ import os
 from sqlalchemy import create_engine
 from sqlalchemy.engine import URL
 
-# ==========================
-# MYSQL DETAILS
-# ==========================
-
 MYSQL_USER = "USER"
 MYSQL_PASSWORD = "YOUR PASSWORD"
 MYSQL_HOST = "localhost"
 MYSQL_DATABASE = "ecommerce-rfm"
 
-# ==========================
-# CSV FOLDER LOCATION
-# ==========================
-
 CSV_FOLDER = r"C:\Users\Dell\Downloads\ecommerce-rfm-project"
 
-# ==========================
-# MYSQL CONNECTION
-# ==========================
 
 connection_url = URL.create(
     drivername="mysql+pymysql",
@@ -40,10 +29,6 @@ connection_url = URL.create(
 )
 
 engine = create_engine(connection_url)
-
-# ==========================
-# FILE -> TABLE MAPPING
-# ==========================
 
 files = {
     "olist_orders_dataset.csv": "orders",
